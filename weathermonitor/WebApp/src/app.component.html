@@ -1,0 +1,18 @@
+﻿<!-- app.component.html -->
+<div *ngIf="isAuthenticated(); else showLogin">
+    <!-- Exibe o conteúdo para usuários autenticados -->
+    <header>
+        <h1>{{ title }}</h1>
+        <button (click)="logout()">Logout</button>
+    </header>
+    <div class="content">
+        <!-- Aqui você pode colocar o conteúdo principal do seu aplicativo -->
+        <h2>Bem-vindo ao Weather Monitor!</h2>
+        <!-- Outros componentes que você deseja exibir após o login -->
+    </div>
+</div>
+
+<ng-template #showLogin>
+    <!-- Exibe o componente de login se o usuário não estiver autenticado -->
+    <app-login></app-login>
+</ng-template>

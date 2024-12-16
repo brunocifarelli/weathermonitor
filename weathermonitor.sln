@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIWeather.WebAPP", "weathermonitor\APIWeather.WebAPP.csproj", "{1E33BA29-535B-43F5-B484-893B6920C65E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIWeather.Infrastructure", "APIWeather.Infrastructure\APIWeather.Infrastructure.csproj", "{693D8AD1-43E3-4CAF-AC4A-F9D7F926D563}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIWeather.Domain", "APIWeather.Domain\APIWeather.Domain.csproj", "{CD3C0F2A-6C65-403C-89EF-29B711BCA64D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E33BA29-535B-43F5-B484-893B6920C65E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E33BA29-535B-43F5-B484-893B6920C65E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E33BA29-535B-43F5-B484-893B6920C65E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E33BA29-535B-43F5-B484-893B6920C65E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{693D8AD1-43E3-4CAF-AC4A-F9D7F926D563}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{693D8AD1-43E3-4CAF-AC4A-F9D7F926D563}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{693D8AD1-43E3-4CAF-AC4A-F9D7F926D563}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{693D8AD1-43E3-4CAF-AC4A-F9D7F926D563}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD3C0F2A-6C65-403C-89EF-29B711BCA64D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD3C0F2A-6C65-403C-89EF-29B711BCA64D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD3C0F2A-6C65-403C-89EF-29B711BCA64D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD3C0F2A-6C65-403C-89EF-29B711BCA64D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46DC4F5F-F5D6-40C8-BE38-5CBCD1752534}
+	EndGlobalSection
+EndGlobal
